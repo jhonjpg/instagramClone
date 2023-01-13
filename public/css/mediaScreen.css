@@ -1,0 +1,304 @@
+
+@media (max-width: 978px) {
+
+
+    section{
+
+        width: 100%;
+        height: 609px;   
+        
+    }
+
+    .left{
+
+        display: none;
+    }
+
+
+
+  
+
+    .rigth{
+
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    
+    }
+    
+    .block-rigth{
+    
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: stretch;
+        min-width: 300px;
+        background-color: white;
+        border: 1px solid rgb(219, 219, 219);
+        padding: 31px;
+        margin: 10px;
+        align-self: center;
+    }
+    
+    .block-rigth img{
+    
+        padding: 0px 70px 1px 70px;
+    
+    }
+    
+    
+    .block-rigth  input{
+    
+        all: unset;
+        padding: 10px;
+        border: 1px solid rgb(219, 219, 219);
+        margin-top:10px; ;
+        background-color: #fafafa;
+        font-size: 13px;
+    
+    
+    }
+    
+    
+    .block-rigth button{
+    
+        display: block;
+        background-color: rgb(0, 149, 246, 0.3);
+        text-align: center;
+        color: white;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .lines{
+    
+        display: flex;
+        margin-top: 30px;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    
+    .left-line{
+    
+    
+    
+        background-color: rgb(219, 219, 219);
+        height: 1px;
+        width: 140px;
+      
+    }
+    
+    
+    .or{
+    
+        font-weight: 600;
+        color: gray;
+        padding: 0px 20px 0px 20px;
+    
+    }
+    
+    .rigth-line{
+    
+        background-color: rgb(219, 219, 219);
+        height: 1px;
+        width: 140px;
+    }
+    
+    
+    .fb-login{
+    
+        text-align: center;
+        margin-top: 20px;
+        color: #385185;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .fb-logo{
+    
+        display: inline-block;
+        margin-right: 8px;
+        position: relative;
+        top:1px;
+        height: 16px;
+        width: 16px;
+        background-image: url("https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png");
+        background-repeat: no-repeat;
+        background-position: -414px -259px;
+        transform: scale(1.4);
+    
+    }
+    
+    .fb-logo span{
+    
+        font-size: 14px;
+        font-weight: 600;
+    
+    }
+    
+    
+    
+    .forget-p{
+    
+    
+        color: rgb(0, 55, 107);
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .not-account{
+    
+        
+        max-width: 300px;
+        background-color: white;
+        border: 1px solid rgb(219, 219, 219);
+        padding: 11px 31px 11px 31px;
+        margin: 10px;
+        height: 20px;
+        margin-top: -8px;
+        align-self: center;
+
+    
+    }
+    
+    .not-account h2{
+    
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .not-account a {
+    
+        color: #0395f6;
+    }
+    
+    
+    .d-apps{
+    
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        padding: 11px 31px 10px 31px;
+        margin: 10px;
+        margin-top: -10px;
+        height: 76px;
+        align-self: center;
+
+    
+    }
+    
+    
+    .d-apps h3{
+    
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 7px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    
+    .apps{
+    
+    
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        margin: 10px 0 10px 0;
+    }
+    
+    .apps span{
+    
+        width: 40%;
+        background-color: red;
+        height: 40px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .appstore img{
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    
+    .googleplay img{
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    
+    footer{
+    
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        width: 100%;
+        height: 25%;
+    }
+    
+    footer ul{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        max-width: 1200px;
+        gap: 10px;
+    
+    
+    }
+    
+    footer a{
+    
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        color: #8e8e8e;
+    
+    
+    }
+    
+    
+    
+    .meta{
+    
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        color: #8e8e8e;
+        margin-top: 2px;
+    
+    }
+    
+    
+    
+
+
+
+
+
+
+    }
